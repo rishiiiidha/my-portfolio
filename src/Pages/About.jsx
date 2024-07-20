@@ -26,7 +26,7 @@ const About = () => {
             </p>
           </a>
         </div>
-        <div className="flex flex-col min-[410px]:flex-row">
+        <div className="flex flex-col sm:flex-row">
           <div className="flex">
             <img
               src={aboutPageContent.about.image.url}
