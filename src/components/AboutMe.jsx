@@ -21,7 +21,7 @@ const AboutMe = () => {
             <div>
               <a
                 href="https://github.com/rishiiiidha"
-                class="flex items-center gap-2 opacity-60 group-hover:opacity-20 hover:!opacity-100 transition-opacity"
+                className="flex items-center gap-2 opacity-60 group-hover:opacity-20 hover:!opacity-100 transition-opacity"
                 target="_blank"
               >
                 <FaGithub width={25} height={25} />
@@ -30,7 +30,7 @@ const AboutMe = () => {
             <div>
               <a
                 href="/#"
-                class="flex items-center gap-2 opacity-60 group-hover:opacity-20 hover:!opacity-100 transition-opacity"
+                className="flex items-center gap-2 opacity-60 group-hover:opacity-20 hover:!opacity-100 transition-opacity"
                 // target="_blank"
               >
                 <SiLeetcode width={25} height={25} />
@@ -39,7 +39,7 @@ const AboutMe = () => {
             <div>
               <a
                 href="/#"
-                class="flex items-center gap-2 opacity-60 group-hover:opacity-20 hover:!opacity-100 transition-opacity"
+                className="flex items-center gap-2 opacity-60 group-hover:opacity-20 hover:!opacity-100 transition-opacity"
                 // target="_blank"
               >
                 <SiCodechef width={25} height={25} />
@@ -48,7 +48,7 @@ const AboutMe = () => {
             <div>
               <a
                 href="/#"
-                class="flex items-center gap-2 opacity-60 group-hover:opacity-20 hover:!opacity-100 transition-opacity"
+                className="flex items-center gap-2 opacity-60 group-hover:opacity-20 hover:!opacity-100 transition-opacity"
                 // target="_blank"
               >
                 <SiCodeforces width={25} height={25} />
@@ -57,7 +57,7 @@ const AboutMe = () => {
             <div>
               <a
                 href="https://www.linkedin.com/in/rishidha-addanki/"
-                class="flex items-center gap-2 opacity-60 group-hover:opacity-20 hover:!opacity-100 transition-opacity"
+                className="flex items-center gap-2 opacity-60 group-hover:opacity-20 hover:!opacity-100 transition-opacity"
                 target="_blank"
               >
                 <FaLinkedinIn width={25} height={25} />
@@ -66,7 +66,7 @@ const AboutMe = () => {
             <div>
               <a
                 href="/#"
-                class="flex items-center gap-2 opacity-60 group-hover:opacity-20 hover:!opacity-100 transition-opacity"
+                className="flex items-center gap-2 opacity-60 group-hover:opacity-20 hover:!opacity-100 transition-opacity"
                 // target="_blank"
               >
                 <FaXTwitter width={25} height={25} />
@@ -75,7 +75,7 @@ const AboutMe = () => {
             <div>
               <a
                 href="/#"
-                class="flex items-center gap-2 opacity-60 group-hover:opacity-20 hover:!opacity-100 transition-opacity"
+                className="flex items-center gap-2 opacity-60 group-hover:opacity-20 hover:!opacity-100 transition-opacity"
                 // target="_blank"
               >
                 <FaDiscord width={25} height={25} />
@@ -84,9 +84,7 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="h-screen w-full">
-          
           <Spline scene="https://prod.spline.design/NLx372xh4258Wxwq/scene.splinecode" />
-
         </div>
       </div>
     </section>
