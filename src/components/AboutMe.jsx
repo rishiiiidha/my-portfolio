@@ -84,7 +84,9 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="h-screen w-full">
+          
           <Spline scene="https://prod.spline.design/NLx372xh4258Wxwq/scene.splinecode" />
+
         </div>
       </div>
     </section>
