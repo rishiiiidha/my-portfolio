@@ -4,7 +4,7 @@ import { EvervaultCard, Icon } from './ui/evervault-card';
 const ProjectCard = ({description ,link,title}) => {
   return (
     <div>
-      <div className="border border-black/[0.2] dark:border-white/[0.2] flex flex-col items-start max-w-xs mx-auto p-4 relative  mt-24">
+      <div className="border border-black/[0.2] dark:border-white/[0.2] flex flex-col items-start max-w-xs mx-auto p-4 relative  ">
         <EvervaultCard text="hover" link={link} />
         <h2 className="dark:text-white text-black mt-4 text-sm font-light">
           {description}

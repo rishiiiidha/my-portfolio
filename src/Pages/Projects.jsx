@@ -3,7 +3,7 @@ import ProjectCard from "../components/ProjectCard";
 
 const Projects = () => {
   return (
-    <div className="grid grid-cols-1 gap-10 sm:grid-cols-2  mb-24">
+    <div className="grid grid-cols-1 gap-10 sm:grid-cols-2  mb-24 mt-10">
       <a
         href="https://github.com/rishiiiidha/alien_invansion_hacks"
         target="_blank"
