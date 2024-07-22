@@ -14,6 +14,13 @@ const Projects = () => {
           title="Alien Invansion Hacks"
         />
       </a>
+      <a href="https://github.com/rishiiiidha/ecommerce-store" target="_blank">
+        <ProjectCard
+          description=" Store is a full-featured web application built using React, designed to provide a seamless shopping experience for users!"
+          link="/vid2.mp4"
+          title="E-commerce store"
+        />
+      </a>
       <a
         href="https://github.com/rishiiiidha/users-team-application"
         target="_blank"
