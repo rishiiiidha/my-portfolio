@@ -19,7 +19,7 @@ const Achievements = () => {
         <LinkPreview
           url="https://drive.google.com/file/d/11yyRXsojvrNnNXVXnJq3Opc5a4U4IuPV/view?usp=sharing"
           className="font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500"
-          imageSrc="/certif1.png"
+          imageSrc="/certif2.png"
           isStatic
         >
           SandCodes Hackathon
@@ -32,7 +32,7 @@ const Achievements = () => {
         <LinkPreview
           url="https://drive.google.com/file/d/1iULlzC0tqIjh05PX7MVjI13ZagTFX5_k/view?usp=sharing"
           className="font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500"
-          imageSrc="/certif2.png"
+          imageSrc="/certif1.png"
           isStatic
         >
           top 25 submissions in the DevStorm Hackathon
