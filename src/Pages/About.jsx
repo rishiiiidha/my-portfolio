@@ -17,7 +17,7 @@ const About = () => {
         </div>
         <div className="flex items-center mb-14">
           <a
-            href="https://github.com/rishiiiidha/interviuzilla_ai/"
+            href="https://github.com/rishiiiidha/my-portfolio"
             className=" opacity-60  hover:opacity-100 transition-opacity"
             target="_blank"
           >
@@ -29,14 +29,14 @@ const About = () => {
         <div className="flex flex-col sm:flex-row">
           <div className="flex">
             <img
-              src={aboutPageContent.about.image.url}
+              src="/pic1.png"
               alt={aboutPageContent.about.image.alt}
               width={150}
               height={250}
               className="w-[150px] h-[120px] object-cover rounded-xl rotate-[10deg] mx-auto sm:ml-auto hover:rotate-0"
             />
             <img
-              src={aboutPageContent.about.image.url}
+              src="/pic2.png"
               alt={aboutPageContent.about.image.alt}
               width={150}
               height={250}
@@ -45,14 +45,14 @@ const About = () => {
           </div>
           <div className="flex">
             <img
-              src={aboutPageContent.about.image.url}
+              src="/pic4.png"
               alt={aboutPageContent.about.image.alt}
               width={150}
               height={250}
               className="w-[150px] h-[120px] object-cover rounded-xl rotate-[2deg] mx-auto sm:ml-auto hover:rotate-0"
             />
             <img
-              src={aboutPageContent.about.image.url}
+              src="/pic3.png"
               alt={aboutPageContent.about.image.alt}
               width={150}
               height={250}

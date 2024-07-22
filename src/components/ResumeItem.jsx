@@ -16,10 +16,12 @@ const ResumeItem = ({ title, company, date }) => {
           />
           <div>
             <h3 className="font-sm">{title}</h3>
-            <p className="text-sm opacity-40">{company.name}</p>
+            <div className="">
+              <p className="text-sm opacity-40">{company.name}</p>
+              <p className="text-sm opacity-40">{date}</p>
+            </div>
           </div>
         </div>
-        <p className="text-sm opacity-40">{date}</p>
       </a>
     </div>
   );
