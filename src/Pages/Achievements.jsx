@@ -7,7 +7,7 @@ const Achievements = () => {
       <p className="text-neutral-600 dark:text-neutral-500 text-xl md:text-2xl max-w-3xl  text-left mb-10">
         Achieved a rating of{" "}
         <LinkPreview
-          url="https://www.codechef.com/users/rishiiii"
+          url="https://www.codechef.com/users/rishidhaa"
           className="font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500"
         >
           1602 and a global rank of 270
