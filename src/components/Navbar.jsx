@@ -102,7 +102,7 @@ const Navbar = () => {
 					className='relative'
 				>
 					<a
-						href='https://drive.google.com/file/d/1RxTfkWOooKihiXhmAqfoDCVxg96lTN1M/view'
+						href='https://drive.google.com/file/d/1EsjibVUSMDBqVJduAlkipswJg83jfYFR/view'
 						target="_blank"
 						rel="noopener noreferrer"
 						className='block p-2 opacity-60 hover:opacity-100 transition-opacity'
