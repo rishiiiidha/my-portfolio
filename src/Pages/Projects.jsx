@@ -3,7 +3,27 @@ import ProjectCard from "../components/ProjectCard";
 
 const Projects = () => {
   return (
-    <div className="grid grid-cols-1 gap-10 sm:grid-cols-2  mb-24 mt-16">
+    <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 mb-24 mt-16">
+      <a
+        href="https://safe-ngo.vercel.app"
+        target="_blank"
+      >
+        <ProjectCard
+          description="Secure Accounting Framework with End-to-End Verification System for NGOs - A blockchain-based solution for transparent NGO donation management."
+          link="/vid7.mp4"
+          title="SAFE-NGO"
+        />
+      </a>
+      <a
+        href="https://interviuzilla-ai.vercel.app"
+        target="_blank"
+      >
+        <ProjectCard
+          description="A web application that helps job seekers prepare for interviews by generating AI-powered questions based on their resume."
+          link="/vid6.mp4"
+          title="Interviuzilla AI"
+        />
+      </a>
       <a
         href="https://github.com/rishiiiidha/alien_invansion_hacks"
         target="_blank"

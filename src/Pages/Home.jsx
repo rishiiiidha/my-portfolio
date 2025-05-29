@@ -4,9 +4,10 @@ import AboutMe from '../components/AboutMe'
 
 const Home = () => {
   return (
-    <div> 
-      <main >
-      <AboutMe/>
+    <div className="min-h-screen bg-black">
+      <main>
+        <AboutMe />
+       
       </main>
     </div>
   )

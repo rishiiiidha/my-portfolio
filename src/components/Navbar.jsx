@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { MdEmail } from "react-icons/md";
+import { FiDownload } from "react-icons/fi";
 import { NavLink } from "react-router-dom";
 import { identity } from "../constants/constant";
 import { LinkPreview } from "./ui/link-preview";
@@ -10,45 +11,6 @@ const navBarLinks = [
   { title: "Projects", url: "/projects" },
   { title: "Achievements", url: "/achievements" },
 ];
-
-const RotatingText = ({ text, duration = 10, size = 50, fontSize = 9 }) => {
-	return (
-		<svg
-			xmlns='http://www.w3.org/2000/svg'
-			viewBox={`0 0 ${size} ${size}`}
-			width={size}
-			height={size}
-		>
-			<defs>
-				<path
-					id='circle-path'
-					d={`M${size / 2},${size / 2} m-${size / 3},0 a${size / 3},${
-						size / 3
-					} 0 1,1 ${(size * 2) / 3},0 a${size / 3},${size / 3} 0 1,1 -${
-						(size * 2) / 3
-					},0`}
-				/>
-			</defs>
-			<text
-				fontFamily='Arial, sans-serif'
-				fontSize={fontSize}
-				fill='currentColor'
-			>
-				<textPath href='#circle-path' startOffset='0%'>
-					<animate
-						attributeName='startOffset'
-						from='0%'
-						to='100%'
-						begin='0s'
-						dur={`${duration}s`}
-						repeatCount='indefinite'
-					/>
-					{`${text} • ${text} • ${text} • ${text}`}
-				</textPath>
-			</text>
-		</svg>
-	);
-};
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -82,7 +44,7 @@ const Navbar = () => {
 					className='w-[50px] h-[50px] object-cover rounded-full'
 				/>
 			</NavLink>
-			<nav className='ml-auto mr-6 sm:m-0'>
+			<nav className='ml-auto mr-6 sm:m-0 z-10'>
 				<ul className='hidden sm:flex sm:items-center sm:gap-2'>
 					{navBarLinks.map((link) => (
 						<li key={link.url}>
@@ -125,23 +87,29 @@ const Navbar = () => {
 				</div>
 			</nav>
 
-			<div>
+			<div className="flex items-center gap-4">
 				<a
 					href={`mailto:${`rishidha04@gmail.com`}`}
 					className='block p-2 opacity-60 hover:opacity-100 transition-opacity'
 					aria-label='Email'
 				>
-					<MdEmail name='mdi:email' width={20} height={20} />
+					<MdEmail name='mdi:email' size={20} />
 				</a>
-			</div>
-			<div className="mt-2" >
 				<LinkPreview
 					url='https://drive.google.com/file/d/1RxTfkWOooKihiXhmAqfoDCVxg96lTN1M/view'
 					imageSrc='/resume-sc.png'
 					isStatic
-					className='relative mt-10 bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500'
+					className='relative'
 				>
-					<RotatingText text='Resume' />
+					<a
+						href='https://drive.google.com/file/d/1RxTfkWOooKihiXhmAqfoDCVxg96lTN1M/view'
+						target="_blank"
+						rel="noopener noreferrer"
+						className='block p-2 opacity-60 hover:opacity-100 transition-opacity'
+						aria-label='Download Resume'
+					>
+						<FiDownload size={20} />
+					</a>
 				</LinkPreview>
 			</div>
 		</div>
