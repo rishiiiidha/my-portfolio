@@ -60,14 +60,14 @@ const Navbar = () => {
 				<div className='relative sm:hidden' ref={menuRef}>
 					<button
 						id='link-menu-button'
-						className='relative font-medium opacity-60 p-4'
+						className='relative font-medium opacity-80 py-4 '
 						onClick={toggleMenu}
 					>
 						Menu <span id='open-indicator'>{menuOpen ? "-" : "+"}</span>
 					</button>
 					<div
 						id='link-menu'
-						className={`absolute p-2 right-0 bg-black  border-slate-900 rounded-lg w-44 transition-opacity ease-in-out duration-300 ${
+						className={`absolute p-2 right-0 bg-black/80 backdrop-blur-sm rounded-lg w-44 transition-opacity ease-in-out duration-300 ${
 							menuOpen ? "opacity-100" : "opacity-0 pointer-events-none"
 						} z-40`}
 					>
@@ -75,8 +75,9 @@ const Navbar = () => {
 							{navBarLinks.map((link) => (
 								<li key={link.url}>
 									<NavLink
-										className='block pl-4 py-3 opacity-100'
+										className='block pl-4 py-3 opacity-60 hover:opacity-100 transition-all'
 										to={link.url}
+										onClick={() => setMenuOpen(false)}
 									>
 										{link.title}
 									</NavLink>

@@ -21,7 +21,7 @@ const AboutMe = () => {
 						transition={{ duration: 0.5 }}
 						className="relative"
 					>
-						<h1 className='font-bold text-3xl mb-1 mt-8 relative z-10'>{identity.name}</h1>
+						<h1 className='font-bold text-3xl mb-1 mt-8 relative'>{identity.name}</h1>
 					</motion.div>
 					<motion.div 
 						initial={{ opacity: 0, y: 20 }}
@@ -29,7 +29,7 @@ const AboutMe = () => {
 						transition={{ duration: 0.5, delay: 0.1 }}
 						className="max-w-[500px]"
 					>
-						<p className='opacity-60 mb-10 text-[15px] relative z-10 whitespace-nowrap overflow-hidden text-ellipsis'>{Homepage.role}</p>
+						<p className='opacity-60 mb-10 text-[15px] relative  whitespace-nowrap overflow-hidden text-ellipsis'>{Homepage.role}</p>
 						
 					</motion.div>
 					<motion.div 

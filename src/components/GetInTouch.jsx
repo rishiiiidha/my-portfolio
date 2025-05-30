@@ -16,10 +16,10 @@ const GetInTouch = () => {
           I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
         </p>
 
-        <div className='group flex justify-center gap-8 w-fit relative z-10'>
+        <div className='group flex flex-col sm:flex-row justify-center gap-4 sm:gap-8 w-fit relative z-10'>
           <a
             href='mailto:rishidha04@gmail.com'
-            className='flex items-center gap-2 px-6 py-3 rounded-lg bg-gray-bg opacity-60 group-hover:opacity-20 hover:!opacity-100 transition-all'
+            className='flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-gray-bg opacity-60 group-hover:opacity-20 hover:!opacity-100 transition-all w-full sm:w-auto'
             target='_blank'
             rel="noopener noreferrer"
           >
@@ -28,7 +28,7 @@ const GetInTouch = () => {
           </a>
           <a
             href='https://www.linkedin.com/in/rishidha-addanki/'
-            className='flex items-center gap-2 px-6 py-3 rounded-lg bg-gray-bg opacity-60 group-hover:opacity-20 hover:!opacity-100 transition-all'
+            className='flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-gray-bg opacity-60 group-hover:opacity-20 hover:!opacity-100 transition-all w-full sm:w-auto'
             target='_blank'
             rel="noopener noreferrer"
           >
@@ -37,7 +37,7 @@ const GetInTouch = () => {
           </a>
           <a
             href='https://github.com/rishiiiidha'
-            className='flex items-center gap-2 px-4 py-3 rounded-lg bg-gray-bg opacity-60 group-hover:opacity-20 hover:!opacity-100 transition-all'
+            className='flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-gray-bg opacity-60 group-hover:opacity-20 hover:!opacity-100 transition-all w-full sm:w-auto'
             target='_blank'
             rel="noopener noreferrer"
           >
