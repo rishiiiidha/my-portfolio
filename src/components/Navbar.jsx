@@ -97,13 +97,13 @@ const Navbar = () => {
 					<MdEmail name='mdi:email' size={20} />
 				</a>
 				<LinkPreview
-					url='https://drive.google.com/file/d/1RxTfkWOooKihiXhmAqfoDCVxg96lTN1M/view'
+					url='https://drive.google.com/file/d/18tOo6hoEB5GkzmaHCf8hKBwZUQ14rAQF/view'
 					imageSrc='/resume-sc.png'
 					isStatic
 					className='relative'
 				>
 					<a
-						href='https://drive.google.com/file/d/1EsjibVUSMDBqVJduAlkipswJg83jfYFR/view'
+						href='https://drive.google.com/file/d/18tOo6hoEB5GkzmaHCf8hKBwZUQ14rAQF/view'
 						target="_blank"
 						rel="noopener noreferrer"
 						className='block p-2 opacity-60 hover:opacity-100 transition-opacity'
